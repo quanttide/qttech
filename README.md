@@ -1,4 +1,12 @@
-# React 官网重构
+# qttech
+
+量潮科技前端仓库。当前包含一个 scope：
+
+- `src/site/`：量潮官网（quanttide.com）
+
+`src/` 根目录只保留入口文件（`index.tsx`、`index.css`、`reportWebVitals.ts` 等），各 scope 代码放在 `src/<scope>/` 下。
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

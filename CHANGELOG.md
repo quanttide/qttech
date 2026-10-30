@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased]
+
+### 变更
+
+- 仓库由 `qtweb` 更名为 `qttech`
+- 官网代码整理为 `src/site`（scope）：`App.tsx`/`App.css`/`App.test.tsx`/`pages/` 移入 `src/site/`，入口 `src/index.tsx` 保留在 `src/` 根，为后续新增 scope 留出结构
+
 ## [0.1.0-alpha.1] - 2026-08-12
 
 ### 新增
