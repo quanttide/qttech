@@ -46,10 +46,50 @@ const sections = [
 
 const list = ['科研服务简介', '团队', '客户案例', '联系我们'];
 
+// 业务官网入口，业务口径取自宣传册（data/brochure/index.md）
+const businessSites = [
+    {
+        name: '量潮数据',
+        url: 'https://data.quanttide.com',
+        intro: '为国内外名校和科技企业提供高质量、高性价比数据处理定制服务。',
+    },
+    {
+        name: '量潮课堂',
+        url: 'https://class.quanttide.com',
+        intro: '为高校和企业提供技术培训。负责浙江理工大学计算机系大数据微专业。',
+    },
+    {
+        name: '量潮咨询',
+        url: 'https://consult.quanttide.com',
+        intro: '帮助中小企业转型 AI 原生组织。',
+    },
+    {
+        name: '量潮云',
+        url: 'https://cloud.quanttide.com',
+        intro: 'AI 原生云服务门户，承载产品理念、产品矩阵与工作台入口。',
+    },
+    {
+        name: '量潮招聘',
+        url: 'https://recurit.quanttide.com',
+        intro: '高校大数据人才招聘与评估平台。',
+    },
+];
+
+const siteList = businessSites.map((site) => site.name);
+const siteSections = businessSites.map((site) => ({
+    title: site.name,
+    paragraph: [site.intro, `![进入${site.name}官网：${site.url.replace('https://', '')}](${site.url})`],
+    imageUrl: '',
+}));
+
 const contents = [
     {
         subtitle: '科研服务业务',
         content: <ContentsWithList list={list} sections={sections} />
+    },
+    {
+        subtitle: '业务官网',
+        content: <ContentsWithList list={siteList} sections={siteSections} />
     }
 ]
 
