@@ -68,11 +68,6 @@ const businessSites = [
         url: 'https://cloud.quanttide.com',
         intro: 'AI 原生云服务门户，承载产品理念、产品矩阵与工作台入口。',
     },
-    {
-        name: '量潮招聘',
-        url: 'https://recurit.quanttide.com',
-        intro: '高校大数据人才招聘与评估平台。',
-    },
 ];
 
 const siteList = businessSites.map((site) => site.name);

@@ -44,6 +44,9 @@ export default function Footer() {
                             <img src={require('./assets/images/Zhihui_iGuo.png')} alt="Zhihu_iGuo" width={50} height={50} style={{ borderRadius: '50px' }} />
                             <p>知乎：iGuo</p>
                         </a>
+                        <a href="https://recurit.quanttide.com" target='blank' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <p>加入我们</p>
+                        </a>
                     </div>
                 </div>
 
