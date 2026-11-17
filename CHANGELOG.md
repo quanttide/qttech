@@ -2,10 +2,15 @@
 
 ## [Unreleased]
 
+## [0.1.0-alpha.2] - 2026-11-18
+
 ### 变更
 
 - 仓库由 `qtweb` 更名为 `qttech`
-- 官网代码整理为 `src/site`（scope）：`App.tsx`/`App.css`/`App.test.tsx`/`pages/` 移入 `src/site/`，入口 `src/index.tsx` 保留在 `src/` 根，为后续新增 scope 留出结构
+
+### 新增
+
+- 业务体系页新增「业务官网」入口：量潮数据、量潮课堂、量潮咨询、量潮云、量潮招聘五个业务官网链接（业务口径取自宣传册）
 
 ## [0.1.0-alpha.1] - 2026-08-12
 
