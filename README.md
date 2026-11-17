@@ -1,10 +1,6 @@
 # qttech
 
-量潮科技前端仓库。当前包含一个 scope：
-
-- `src/site/`：量潮官网（quanttide.com）
-
-`src/` 根目录只保留入口文件（`index.tsx`、`index.css`、`reportWebVitals.ts` 等），各 scope 代码放在 `src/<scope>/` 下。
+量潮科技前端仓库，承载量潮官网（quanttide.com）。
 
 ## Create React App
 
